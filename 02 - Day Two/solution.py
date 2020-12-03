@@ -4,7 +4,7 @@
 # Note: This solution is quick and dirty and there might be a better solution.
 #       But it works ;)
 
-def checkValidity(policy, min_count, max_count, password):
+def check_validity(policy, min_count, max_count, password):
     count = 0
 
     for c in password:
@@ -17,7 +17,7 @@ def checkValidity(policy, min_count, max_count, password):
     
     return False
 
-def checkValidityNew(policy, min_count, max_count, password):
+def check_validtiy_new(policy, min_count, max_count, password):
     # All countings start at 1
     pos1 = int(min_count) - 1
     pos2 = int(max_count) - 1
@@ -55,8 +55,8 @@ for i in range(len(passwords)):
     max_count = password_ranges[i][1]
     password = passwords[i]
 
-    verify = checkValidity(policy, min_count, max_count, password)
-    verify2 = checkValidityNew(policy, min_count, max_count, password)
+    verify = check_validity(policy, min_count, max_count, password)
+    verify2 = check_validity_new(policy, min_count, max_count, password)
     if verify == True:
         solution += 1
     if verify2 == True:
