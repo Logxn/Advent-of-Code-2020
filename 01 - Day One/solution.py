@@ -26,5 +26,5 @@ for i in numbers:
                 break
 
 
-print(solution1)
-print(solution2)
+#print(solution1)
+#print(solution2)
