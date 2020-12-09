@@ -27,7 +27,6 @@ def solve(invalid_num):
 
         for num in data[min_index:max_index]:
             curr_index = data.index(num)
-            percent = int(curr_index) / int(max_index)
             sum += int(num)
 
             if sum > int(invalid_num):
