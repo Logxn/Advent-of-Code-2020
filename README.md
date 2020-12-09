@@ -9,4 +9,4 @@ I mainly use this to learn Python.<br><br>
 
 Another warning: Solutions might not come daily. Multiple day solutions may come on one day.<br><br>
 
-Check out [JanEtschel's](https://https://github.com/janetschel/advent-of-go-2020) solutions if you are interested in Go-Lang!
+Check out [JanEtschel's](https://github.com/janetschel/advent-of-go-2020) solutions if you are interested in Go-Lang!
